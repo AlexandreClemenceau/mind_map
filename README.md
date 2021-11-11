@@ -1,4 +1,5 @@
 # mind_map
+Necessite Docker et Git
 
 Deployer : ./deploy.sh
 
