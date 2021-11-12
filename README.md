@@ -3,12 +3,12 @@ Necessite Docker et Git
 
 Deployer : ./deploy.sh
 
-add node : curl http://0.0.0.0:5000/<node_name> -X POST
+add node : curl http://localhost:5000/<node_name> -X POST
 
-del node : curl http://0.0.0.0:5000/<node_name> -X delete
+del node : curl http://localhost:5000/<node_name> -X delete
 
-get node : curl http://0.0.0.0:5000/<node_name>
+get node : curl http://localhost:5000/<node_name>
 
-update node : curl http://0.0.0.0:5000/<node_name> -d "child=<child_node_name>" -X PUT
+update node : curl http://localhost:5000/<node_name> -d "child=<child_node_name>" -X PUT
 
 Test unitaire disponible dans unit_test.py
